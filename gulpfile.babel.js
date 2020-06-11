@@ -68,6 +68,7 @@ const watchFiles = () => {
       "static/**/*.js",
       "!static/**/bootstrap.css",
       "!static/**/bootstrap_responsive.css",
+      "!static/**/custom.css",
       "!static/**/elegant.prod.9e9d5ce754.css",
       "!static/js/elegant.prod.9e9d5ce754.js"
     ],
