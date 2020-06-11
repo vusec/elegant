@@ -1,3 +1,4 @@
+/*
 article
   div.article-content
   ul:not(.articles-timeline):not(.related-posts-list)
@@ -41,6 +42,7 @@ div.recent-posts-posted a {
     text-decoration: none;
   }
 }
+*/
 #lunr-search-result > div.lunr-search-result-item > h4 > a {
   color: royalblue;
   display: inline-block;
