@@ -1,0 +1,119 @@
+/*
+ * SVG backgrounds generated on: https://www.heropatterns.com/
+ * Pallette inspired by CGA graphics:
+ *   - https://colorhunt.co/palette/189745
+ *   - https://colorhunt.co/palette/180405
+ *   - https://lospec.com/palette-list/tag/cga
+ * Font sizes:
+ *   - Font sizes are specified in rems. However, all font sizes used in the
+ *     main Elegant them are wrapped in rfs(), which should result in better
+ *     responsive features. However, rfs() is handled by PostCSS, which means
+ *     that we can't use it here.
+ *     If the unwrapped font sizes used here turn out to look bad on smaller
+ *     screens, we may have to define these sizes as variables in typography.css.
+ */
+
+:root {
+	--white-0: #F7F7F7;
+	--white-1: #EEEEEE;
+	--red-0: #FF5555;
+	--red-1: #AA0000;
+	--cyan-0: #43D8C9;
+	--cyan-1: #00AAAA;
+	--magenta-0: #9975D7;
+	--magenta-1: #95389E;
+	--orange: #AA5500;
+	--gray-0: #393E46;
+	--gray-1: #222831;
+	--black: #100303;
+}
+
+/* body and menu base colors */
+body,
+.navbar-inner {
+  background-color: var(--black);
+  background-image: url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23222831' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 0h35v35H0V0zm5 5h25v25H5V5zm5 5h15v15H10V10zm5 5h5v5h-5v-5zM40 5h25v25H40V5zm5 5h15v15H45V10zm5 5h5v5h-5v-5zM70 35H35v35h35V35zm-5 5H40v25h25V40zm-5 5H45v15h15V45zm-5 5h-5v5h5v-5zM30 40H5v25h25V40zm-5 5H10v15h15V45zm-5 5h-5v5h5v-5z'/%3E%3C/g%3E%3C/svg%3E");
+  color: var(--white-1);
+}
+.navbar-inner {
+  border-color: var(--magenta-0);
+}
+
+/* site title */
+.brand .site-name {
+  font-family: var(--serifHeadingFontFamily);
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: var(--magenta-0);
+  text-shadow: 2px 2px 3px var(--magenta-1);
+}
+
+/* menu */
+.navbar {
+  font-family: var(--serifHeadingFontFamily);
+}
+.navbar .nav > li > a {
+  color: var(--magenta-0);
+  font-size: 1.1rem;
+  text-shadow: none;
+}
+.navbar .nav > .active > a {
+  background-color: var(--magenta-0);
+  color: var(--white-1);
+  &:hover {
+	background-color: var(--white-1);
+	color: var(--magenta-0);
+  }
+}
+
+/* article title */
+.page-header {
+  color: var(--white-0);
+  font-size: 2rem;
+  border-bottom: 2px solid var(--white-0);
+}
+.page-header h1 {
+	margin: 5px 0px;
+}
+.page-header .subtitle {
+  display: block;
+  color: var(--red-0);
+  font-size: 1.1rem;
+}
+
+/* article */
+.article-content {
+	font-family: var(--monoFontFamily);
+}
+.article-content a {
+	color: var(--cyan-1);
+}
+.article-content blockquote {
+	color: var(--cyan-1);
+	background-color: var(--black);
+	border-left-color: var(--red-2);
+}
+.article-content blockquote * {
+	font-family: var(--monoFontFamily);
+}
+
+/* headings */
+h1, h2, h3 { font-family: var(--serifHeadingFontFamily); clear: both; }
+h4, h5, h6 { font-family: var(--monoFontFamily); }
+h1 { color: var(--white-1); font-size: 1.8rem; border-color: var(--white-1); }
+h2 { color: var(--cyan-0);  font-size: 1.6rem; border-color: var(--cyan-0); }
+h3 { color: var(--cyan-1);  font-size: 1.4rem; border: none; }
+h4, h5, h6 { color: var(--cyan-1); }
+hr { margin: 3em auto; border-color: var(--gray-0); }
+
+/* media */
+img.movie-poster {
+	float: right;
+	display: block;
+	border: none;
+}
+.videobox iframe {
+	display: block;
+	margin: auto;
+}
+
