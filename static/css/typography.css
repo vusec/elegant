@@ -5,11 +5,12 @@
   --headingOthersLineHeight: 1.3rem;
   --headingOthersH4FontSize: 1.1rem;
   --sansFontFamily: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --monoFontFamily: "PT Mono", Monaco, Menlo, Consolas, "Courier New", monospace;
+  --monoFontFamily: "Anonymous Pro", "PT Mono", Monaco, Menlo, Consolas, "Courier New", monospace;
   --serifFontFamily: "PT Serif", Georgia, "Times New Roman", Times, serif;
-  --serifHeadingFontFamily: "PT Serif Caption", Baskerville, Garamond, Georgia,
+  --serifHeadingFontFamily: "Orbitron", "PT Serif Caption", Baskerville, Garamond, Georgia,
     "DejaVu Serif", "Times New Roman", Times, serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Orbitron:wght@700;900&display=swap');
 body {
   margin: 0;
   font-family: var(--sansFontFamily);
